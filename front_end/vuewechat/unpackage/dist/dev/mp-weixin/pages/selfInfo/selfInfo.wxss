@@ -1,0 +1,69 @@
+
+page {
+	background-color: #f0f0f0;
+}
+.textDis {
+	font-size: 50rpx;
+	font-weight: 900;
+	color: #ffffff;
+	padding-bottom: 20px;
+}
+.textDis1 {
+	font-size: 30rpx;
+	color: #ffffff;
+	padding-bottom: 20px;
+}
+.content-wrapper {
+	width: 100%;
+}
+.whiteBack{
+	background-color: #ffffff;
+	opacity: 0.9;
+	border-radius: 10px;
+}
+.box{
+	margin: 0px 5% 0px 5%;
+}
+.title {
+	margin-top: 35rpx;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.login-form {
+	margin: 20px 10px 20px 15px;
+	opacity: 0.8;
+}
+.login-form-items {
+	padding: 15px 10px;
+	border-bottom: 1px solid;
+	position: relative;
+	display: flex;
+	font-family: "楷体", "楷体_GB2312";
+}
+.login-form-items-title {
+	width: 30%;
+	line-height: 22px;
+	height: 22px;
+	flex-shrink: 0;
+}
+.login-input {
+	width: 100%
+}
+.btn {
+	width: 43%;
+	color: #ffffff;
+	background-color: #00aaff;
+	margin: 0px 15px  20px 15px;
+	font-family: "楷体", "楷体_GB2312";
+}
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: url(http://47.100.78.158:8080/img/static/background/bg8.png) no-repeat center top;
+	background-size: 100%;
+	background-attachment: fixed;
+	z-index: -1;
+}
+

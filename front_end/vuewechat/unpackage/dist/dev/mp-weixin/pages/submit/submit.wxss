@@ -1,0 +1,64 @@
+
+page {
+	background-color: #f0f0f0;
+}
+.textDis {
+	font-size: 50rpx;
+	font-weight: 900;
+	color: #ffffff;
+	padding-bottom: 20px;
+}
+.textDis1 {
+	font-size: 30rpx;
+	color: #ffffff;
+	padding-bottom: 20px;
+}
+.myview{
+	display: flex;
+	justify-content: left;
+}
+.mytext{
+	font-size:20px;
+}
+.text{
+	margin:5px 5px 5px 5px;
+	width: 95%;
+	border-style: solid;
+	border-width:1px;
+}
+.titlearea {
+	display: flex;
+	justify-content: center;
+	color: #333333;
+}
+.title {
+	font-size: 40rpx;
+	color: #333333;
+}
+.buttonDisplay {
+	color:black;
+	border-style: solid;
+	border-width:1px;
+	font-family: "楷体", "楷体_GB2312";
+	height: 40px;
+	border-radius: 10px;
+}
+.btn {
+	width: 60%;
+	color: #ffffff;
+	background-color: #00aaff;
+}
+.box{
+	margin: 0px 5% 20px 5%;
+}
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: url(http://47.100.78.158:8080/img/static/background/bg8.png) no-repeat center top;
+	background-size: 100%;
+	background-attachment: fixed;
+	z-index: -1;
+}
+

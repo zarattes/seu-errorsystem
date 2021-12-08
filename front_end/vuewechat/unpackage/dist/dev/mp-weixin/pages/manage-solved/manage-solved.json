@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "已解决故障归档",
+  "usingComponents": {
+    "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item"
+  }
+}

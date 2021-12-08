@@ -1,0 +1,53 @@
+
+.Info {
+	font-size: 30rpx;
+}
+.Info1 {
+	font-size: 30rpx;
+}
+.Info2 {
+	font-size: 30rpx;
+}
+.user {
+	font-size: 40rpx;
+	color: #8a8a8a;
+}
+.time {
+	font-size: 30rpx;
+	color: #8a8a8a;
+}
+.content {
+	font-size: 50rpx;
+	padding-left: 5px;
+}
+.content1{
+	font-size: 40rpx;
+}
+.text {
+	margin: 5px 5px 5px 5px;
+	width: 95%;
+	border-style: solid;
+	border-width: 1px;
+}
+page {
+	background-color: #f0f0f0;
+}
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(http://47.100.78.158:8080/img/static/background/bg8.png) no-repeat center top;
+	background-size: 100%;
+	background-attachment: fixed;
+	z-index: -1;
+}
+.box {
+	margin: 20px 5% 20px 5%;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	opacity: 0.9;
+	border-radius: 10px;
+}
+

@@ -1,0 +1,128 @@
+
+page {
+	background-color: #f0f0f0;
+}
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: url(http://47.100.78.158:8080/img/static/background/bg8.png) no-repeat center top;
+	background-size: 100%;
+	background-attachment: fixed;
+	z-index: -1;
+}
+.box {
+	margin: 20px 5% 20px 5%;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: left;
+}
+.logo {
+	height: 200rpx;
+	width: 200rpx;
+	margin-top: 200rpx;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50rpx;
+}
+.text-area {
+	display: flex;
+	justify-content: left;
+	color: #333333;
+}
+.title {
+	font-size: 36rpx;
+	color: #333333;
+}
+.textDis{
+	font-size: 50rpx;
+	font-weight: 900;
+	color: #ffffff;
+	padding-bottom: 20px;
+}
+.textDis1{
+	font-size: 30rpx;
+	color: #ffffff;
+	padding-bottom: 20px;
+}
+.look {
+	display: flex;
+	border-top: 0px solid #e6e6e7;
+	text-align: center;
+	align-items: center;
+	opacity: 0.9;
+}
+.leftlook {
+	width: 50%;
+	background-color: #FFFFFF;
+	align-items: center;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	border-right: 0px solid #e6e6e7;
+	border-left: 0px solid #e6e6e7;
+	border-top-left-radius: 10px ;
+}
+.rightlook {
+	width: 50%;
+	background-color: #FFFFFF;
+	align-items: center;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	border-right: 0px solid #e6e6e7;
+	border-top-right-radius: 10px ;
+}
+.listDisplay {
+	height: 100px;
+}
+.stateDisplay {
+	background-color: #00aaff;
+	color: #ffffff;
+	height: 20px;
+	border-radius: 10px;
+}
+.idAndTime {
+	font-size: 30rpx;
+	color: #b8b8b8;
+}
+.idAndTime1 {
+	font-size: 25rpx;
+	color: #b8b8b8;
+}
+.queType {
+	font-size: 35rpx;
+}
+.queContent {
+	font-size: 30rpx;
+}
+.titleDisplay {
+	font-size: 20px;
+}
+.butDis {
+	font-size: 15px;
+}
+.page {
+	text-align: center;
+	width: 30%;
+	padding: 10px 0 10px 0;
+}
+.page1 {
+	text-align: center;
+	width: 40%;
+	padding: 10px 0 10px 0;
+}
+.Page {
+	display: flex;
+	text-align: center;
+	background-color: #ffffff;
+	border-bottom: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	opacity: 0.9;
+}
+

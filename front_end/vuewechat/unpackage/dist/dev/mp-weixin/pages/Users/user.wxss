@@ -1,0 +1,59 @@
+
+page {
+	background-color: #f0f0f0;
+}
+.textDis {
+	font-size: 50rpx;
+	font-weight: 900;
+	color: #ffffff;
+	padding-bottom: 20px;
+}
+.textDis1 {
+	font-size: 30rpx;
+	color: #ffffff;
+	padding-bottom: 20px;
+}
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: url(http://47.100.78.158:8080/img/static/background/bg8.png) no-repeat center top;
+	background-size: 100%;
+	background-attachment: fixed;
+	z-index: -1;
+}
+.allicon{
+	display: flex;
+	justify-content: space-around;
+}
+.icon {
+	width: 40%;
+	height: 250rpx;
+	background-color: #f7f7f7;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+.icon1 {
+	width: 90%;
+	height: 250rpx;
+	background-color: #f7f7f7;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+.image {
+	width: 200rpx;
+	height: 200rpx;
+	margin: auto;
+}
+.text {
+	margin: auto;
+	font-size: 35rpx;
+	font-family: SimHei;
+}
+.box {
+	margin: 0px 5% 0px 5%;
+}
+

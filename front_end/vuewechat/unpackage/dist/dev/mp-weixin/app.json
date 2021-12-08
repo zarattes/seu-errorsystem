@@ -1,0 +1,40 @@
+{
+    "pages": [
+        "pages/denglu/denglu",
+        "pages/Users/user",
+        "pages/index/index",
+        "pages/message/message",
+        "pages/selfInfo/selfInfo",
+        "pages/myque/myque",
+        "pages/submit/submit",
+        "pages/admin/admin",
+        "pages/manage-index/manage-index",
+        "pages/manage-advice/manage-advice",
+        "pages/manage-advice-look/manage-advice-look",
+        "pages/manage-solve/manage-solve",
+        "pages/manage-solved/manage-solved",
+        "pages/admin-selfinfo/admin-selfinfo",
+        "pages/manage-save/manage-save",
+        "pages/passwordchange/PasswordChange",
+        "pages/QuestinDetail/detail",
+        "pages/SolvingQuestion/SolvingQuestion",
+        "pages/SolvedQuestion/solved",
+        "pages/manage-class/manage-class",
+        "pages/register/register",
+        "pages/searchforMessage/searchforMessage"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "大数据中心报障系统",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8",
+        "enablePullDownRefresh": true
+    },
+    "networkTimeout": {
+        "request": 180000
+    },
+    "permission": {},
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}

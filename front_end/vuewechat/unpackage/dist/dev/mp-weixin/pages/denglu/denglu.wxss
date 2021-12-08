@@ -1,0 +1,59 @@
+
+.logo {
+	align-items: center;
+	text-align: center;
+}
+.logo-display {
+	width: 150px;
+	height: 120px;
+}
+.content-wrapper {
+	width: 100%;
+}
+.login-form {
+	margin: 0px 10px 10px 15px;
+	background: #FFFFFF;
+	opacity: 0.8;
+}
+.login-form-items {
+	padding: 15px 10px;
+	border-bottom: 1px solid #F3F4F5;
+	position: relative;
+	display: flex;
+}
+.login-form-items-title {
+	width: 30%;
+	line-height: 22px;
+	height: 22px;
+	flex-shrink: 0;
+	text-align: center;
+}
+.login-input {
+	width: 100%
+}
+.submit-wrapper {
+	padding: 10px;
+	padding-top: 10px;
+	display: flex;
+}
+.btn {
+	width: 60%;
+	color: #ffffff;
+	background-color: #00aaff;
+	margin-top: 10px;
+}
+.findPw {
+	display: flex;
+	padding: 10px 20px 20px 25px;
+	color: #00aaff;
+}
+.background {
+	position: absolute;
+	top: calc(15vh);
+	left: 0;
+	width: 100%;
+	background-size: 100%;
+	background-attachment: fixed;
+	z-index: -1;
+}
+

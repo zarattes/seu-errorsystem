@@ -1,0 +1,56 @@
+
+page {
+	background-color: #f0f0f0;
+}
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: url(http://47.100.78.158:8080/img/static/background/bg8.png) no-repeat center top;
+	background-size: 100%;
+	background-attachment: fixed;
+	z-index: -1;
+}
+.box {
+	margin: 20px 5% 20px 5%;
+}
+.listItem {
+	width: 52%;
+	font-size: small;
+	padding: 10px 0 10px 0;
+	border-top: 1px solid #e6e6e7;
+	border-right: 1px solid #e6e6e7;
+}
+.listItem1 {
+	color: #00aaff;
+	width: 24%;
+	font-size: small;
+	padding: 10px 0 10px 0;
+	border-top: 1px solid #e6e6e7;
+	border-right: 1px solid #e6e6e7;
+}
+.listItem2 {
+	width: 30%;
+	padding: 20px 0 20px 0;
+}
+.listItem3 {
+	width: 45%;
+	padding: 20px 0 20px 0;
+}
+.btn {
+	color: #ffffff;
+	background-color: #00aaff;
+}
+.textDis {
+	font-size: 50rpx;
+	font-weight: 900;
+	color: #ffffff;
+	padding-bottom: 20px;
+}
+.textDis1 {
+	font-size: 30rpx;
+	color: #ffffff;
+	padding-bottom: 20px;
+}
+

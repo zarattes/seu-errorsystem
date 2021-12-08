@@ -1,0 +1,37 @@
+
+.Info {
+	font-size: 35rpx;
+}
+.Info2 {
+	font-size: 35rpx;
+}
+.content {
+	font-size: 50rpx;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+.idAndTime {
+	font-size: 25rpx;
+	color: #b8b8b8;
+}
+page {
+	background-color: #f0f0f0;
+}
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(http://47.100.78.158:8080/img/static/background/bg8.png) no-repeat center top;
+	background-size: 100%;
+	background-attachment: fixed;
+	z-index: -1;
+}
+.box {
+	margin: 20px 5% 20px 5%;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+}
+

@@ -1,0 +1,130 @@
+{
+	"easycom": {
+		"nv": "@/uni_modules/pyh-nv/components/pyh-nv/pyh-nv.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/denglu/denglu"
+		},
+		{
+				"path": "pages/Users/user"
+		},
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "报障信息"
+			}
+		},
+		{
+			"path": "pages/selfInfo/selfInfo",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/myque/myque",
+			"style": {
+				"navigationBarTitleText": "我提交的问题"
+			}
+		},
+		{
+			"path": "pages/submit/submit",
+			"style": {
+				"navigationBarTitleText": "提交报障信息"
+			}
+		},
+		{
+			"path":"pages/admin/admin"
+		},
+		{
+			"path": "pages/manage-index/manage-index"
+		},
+		{
+			"path": "pages/manage-advice/manage-advice"
+		},
+		{
+			"path": "pages/manage-advice-look/manage-advice-look"
+		},
+		{
+			"path": "pages/manage-solve/manage-solve",
+			"style": {
+				"navigationBarTitleText": "查看故障详情"
+			}
+		},
+		{
+			"path": "pages/manage-solved/manage-solved",
+			"style": {
+				"navigationBarTitleText": "已解决故障归档"
+			}
+		},
+		{
+			"path":"pages/admin-selfinfo/admin-selfinfo"
+		},
+		{
+			"path":"pages/manage-save/manage-save"
+		},
+		{
+			"path": "pages/passwordchange/PasswordChange",
+			"style": {
+				"navigationBarTitleText": "密码修改"
+			}
+		},
+		{
+			"path": "pages/QuestinDetail/detail",
+			"style": {
+				"navigationBarTitleText": "问题信息"
+			}
+		},
+		{
+			"path": "pages/SolvingQuestion/SolvingQuestion",
+			"style": {
+				"navigationBarTitleText": "已审核问题信息"
+			}
+		},
+		{
+			"path": "pages/SolvedQuestion/solved",
+			"style": {
+				"navigationBarTitleText": "已解决问题信息"
+			}
+		},
+		{
+			"path": "pages/manage-class/manage-class",
+			"style": {
+				"navigationBarTitleText": "管理问题分类"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/searchforMessage/searchforMessage",
+			"style": {
+				"navigationBarTitleText": "问题信息"
+			}
+		}
+	],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "大数据中心报障系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh": true
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
